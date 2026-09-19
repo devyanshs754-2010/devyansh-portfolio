@@ -276,12 +276,23 @@ h2 span {
   font-size: 11px;
 }
 
-.project > a {
+.project-links {
+  display: flex;
+  gap: 12px;
+  margin-top: 18px;
+  flex-wrap: wrap;
+}
+
+.project-links a {
   color: var(--green);
   font-size: 13px;
   font-weight: 700;
 }
-
+@media (max-width: 900px) {
+  .projects {
+    grid-template-columns: 1fr;
+  }
+}
 /* SKILLS */
 
 .skills {
