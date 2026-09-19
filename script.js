@@ -1,9 +1,7 @@
 const form = document.getElementById("contactForm");
 const status = document.getElementById("status");
 
-form.addEventListener("submit", function (event) {
-
-  const form = document.getElementById("contactForm");
+const form = document.getElementById("contactForm");
 
 form.addEventListener("submit", function () {
   // Formspree ko form submit karne do.
