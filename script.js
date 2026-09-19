@@ -3,7 +3,11 @@ const status = document.getElementById("status");
 
 form.addEventListener("submit", function (event) {
 
-  event.preventDefault();
+  const form = document.getElementById("contactForm");
+
+form.addEventListener("submit", function () {
+  // Formspree ko form submit karne do.
+});
 
   const name = document.getElementById("name").value.trim();
   const email = document.getElementById("email").value.trim();
